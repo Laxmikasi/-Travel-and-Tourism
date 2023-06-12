@@ -1,0 +1,76 @@
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+}
+.heading span{
+    font-size: 2rem;
+    background: rgba(255,165,0,.2);
+    color: orange;
+    border-radius: .5rem;
+    padding: .5rem .5rem;
+    
+    
+    
+}
+.heading span.space{
+    background: none;
+}
+
+
+.book .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 0;
+}
+ .bookimage {
+    position: relative;
+    margin-right: 700px;
+
+    width: 50%;
+    height: 650px;
+}
+.book .row {
+ 
+margin-left: 650px;
+position: absolute;
+width: 50%;
+
+ padding: 1rem;
+ border-radius: 5rem;
+box-shadow: 0 1rem 2rem  rgba(0,0,0,.1);
+
+}
+.book .row form .formgroup{
+    padding: 1rem 0;
+    
+}
+.book .row form .formgroup input{
+    width:80%;
+    padding: 5px 10px;
+    border: .3rem solid rgba(0,0,0,.1);
+    font-size: 1.3rem;
+    color:#333;
+    text-transform:none;
+    
+    border-radius: 10px;
+}
+.book .row form .formgroup h4{
+    color:orange;
+    width: 40%;
+    
+    }
+    
+ input[type="submit"]{
+    background-color: orange;
+    padding:.5rem 3rem;
+    margin-right: 220px;
+    margin-top: 1rem;
+    font-family: cursive;
+ }   
+ .bb{
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 5px;
+ }

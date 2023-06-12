@@ -1,0 +1,25 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-size: cover;
+    background-color: beige;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+ .gallery img {
+        margin: 20px;
+        width: 360px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        transition: transform 0.2s ease-in-out;
+        cursor: pointer;
+        }
+        img:hover {
+            transform: scale(1.1);
+
+            }
+            

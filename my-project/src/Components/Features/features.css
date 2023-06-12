@@ -1,0 +1,19 @@
+.container .row .photo{
+    background-size: cover;
+     width: 100px;
+     height: 100px;
+
+     
+ }
+ 
+ /*.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 15px;
+    justify-content: center;
+    
+ }*/
+ 
+ 
+
+ 

@@ -1,0 +1,79 @@
+.contact .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.contact .row .contact-info {
+width: 30%;
+
+margin-top: 3rem;
+
+}
+.contact .row .contact-info .bx{
+    margin: 4rem 2rem;
+    
+}
+.contact .row .contact-info .bx p{
+    padding-left: 3rem;
+    font-size: 1rem;
+    color: #aaa;
+    font-family: cursive;
+
+}
+.contact .row .contact-info .bx h3{
+    font-size: 1.5rem;
+    color:#333 ;
+    font-family: cursive;
+
+}
+.contact .row .container{
+    width: 50%;
+    margin-bottom: 4rem;
+    
+}
+.container .inputbox{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 640px;
+    
+    
+}
+ .r2 .f2 h3{
+font-size: 1.8rem;
+padding-top: 4rem;
+color:#0098a1;
+margin-bottom: 2rem;
+
+}
+.r2 .f2 input{
+    outline: none;
+    border: .2rem solid #0098a1;
+    padding: 1rem 2rem;
+    font-family: cursive;
+    margin: 5px;
+    
+}
+.r2 .f2 textarea{
+width: 100%;
+height: 20%;
+resize: none;
+margin-top: 2rem;
+border: .2rem solid #0098a1;
+padding: 1rem;
+font-family: cursive;
+}
+.button{
+    background-color: orange;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.r2 .f2{
+    
+    margin-top: 0px;
+}

@@ -1,0 +1,52 @@
+.home1 {
+   display: flex; 
+   margin-top: 2rem;
+
+
+}
+.home1 .dv1{
+    
+    width: 30%;
+    padding: 20px;
+
+}
+.home1 .dv2{
+    
+    width: 80%;
+    padding: 20px;
+    align-items: center;
+}
+.dv2 img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+
+}
+.home1 .dv3{
+
+    padding: 20px;
+}
+.dv2 p{
+    
+    font-size: 1rem;
+    text-align: left;
+}
+.home1 .blue{
+    border-top: 2px solid navy;
+}
+
+.home1 button{
+    margin: 5px;
+}
+.arrow{
+    background-color: rgb(217, 208, 208);
+    padding: 10px;
+}
+.arrow span{
+    margin: 20px;
+}
+.icon{
+margin-left: 10px;
+}
